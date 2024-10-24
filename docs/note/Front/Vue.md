@@ -12,7 +12,7 @@ permalink: /article/bz36p5zs/
 4. 创建Vue工程：`vue create vue-test`
 5. [组件向外暴露属性](https://gitee.com/ma-hao-chinese/vue-test/blob/master/hello/src/components/HelloWorld.vue)
 6. 模板语法
-	1. `{{}}`:文件插值
+	1. `\{\{\}\}`:文件插值
 	2. 单向绑定：v-bind:property=""   或  :property=""
 	3. 双向绑定：v-modal=""
 	4. 事件绑定：v-on:click="method" 或 @click="js表达式"

@@ -238,10 +238,10 @@ docker logs 容器名称 -f
 #### 查看容器 IP 地址
 
 ```bash
-# 查看容器的元信息
-docker inspect 容器名称|容器ID 
-# 直接输出 IP 地址
-docker inspect --format='{{.NetworkSettings.IPAddress}}' 容器名称|容器ID
+    # 查看容器的元信息
+    docker inspect 容器名称|容器ID 
+    # 直接输出 IP 地址
+    docker inspect --format='{{.NetworkSettings.IPAddress}}' 容器名称|容器ID
 ```
 
 #### 容器中文件拷贝
