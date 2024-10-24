@@ -3,7 +3,7 @@ import {defineUserConfig} from 'vuepress'
 import {plumeTheme} from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/hao.github.io/',
   lang: 'zh-CN',
   title: 'Hao Blog',
   description: 'Hao Blog',
