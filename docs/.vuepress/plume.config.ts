@@ -1,6 +1,6 @@
 import {defineThemeConfig} from 'vuepress-theme-plume'
 import {navbar} from './navbar'
-// import { notes } from './notes'
+import { notes } from './notes'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -18,8 +18,6 @@ export default defineThemeConfig({
     name: 'Hao Blog',
     description: 'Hao Blog',
     circle: true,
-    // location: '',
-    // organization: '',
   },
   prevPage: true,
   prevPageLabel: "上一篇",
@@ -27,9 +25,8 @@ export default defineThemeConfig({
   nextPageLabel: "下一篇",
 
   transition: true,
-
   navbar,
-  // notes,
+  notes,
   social: [
     {icon: 'github', link: '/'},
   ],
