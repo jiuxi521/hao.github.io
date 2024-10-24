@@ -12,7 +12,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://jiuxi521.github.io/',
+    hostname: 'https://github.com/jiuxi521/',
 
     // 配置侧边栏
     sidebar: {
